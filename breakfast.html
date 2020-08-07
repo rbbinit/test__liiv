@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="kor">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/breakfast.css" />
+    <title>breakfast</title>
+  </head>
+
+  <body>
+    <div class="statusplusnav">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <a href="index.html">
+            <img src="images/Believe_B.png" class="home__body-imgB" />
+            <img src="images/Believe_Liiv.png" class="home__body-imgLiiv" />
+          </a>
+        </div>
+        <div class="status-bar__column">
+          <img src="images/people.png" class="home__body-people" />
+        </div>
+      </div>
+
+      <div class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item1">
+            <a href="breakfast.html" class="nav__list-link breakfastlink">
+              아침자산</a
+            >
+          </li>
+          <li class="nav__list-item2">
+            <a href="lunch.html" class="nav__list-link lunchlink">점심지출</a>
+          </li>
+          <li class="nav__list-item3">
+            <a href="dinner.html" class="nav__list-link dinnerlink">저녁설계</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main class="breakfast">
+      <div class="breakfast__body-content">
+        <div class="breakfast__body-content-up">
+          <div class="breakfast__body-content-text">김리브님의 순 자산</div>
+          <button
+            type="button"
+            id="breakfast_button"
+            onclick="breakfast_button_click()"
+          >
+            <script src="breakfast.js"></script>
+            <i class="fas fa-sort-down"></i>
+          </button>
+        </div>
+        <div class="breakfast__body-content-down">
+          <div class="breakfast__body-content-money">
+            <strong>1,042,100,148원</strong>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="contents">
+      <div class="deposit">
+        <div class="deposit-totalMoney">
+          
+          <div class="deposit-totalMoney1">
+            <span class="deposit-korean1 d-k">계좌, 현금</span>
+            <span class="deposit-money1 d-m">34,955,148원</span>
+          </div>
+          
+          <div class="deposit-totalMoney2">
+            <span class="deposit-korean2 d-k">입출금</span>
+            <span class="deposit-money2 d-m">4,955,148원</span>
+          </div>
+          
+          <div class="deposit-totalMoney3">
+            <span class="deposit-korean3 d-k">유휴자산</span>
+            <i class="fas fa-question-circle"></i>
+            <span class="deposit-money3 d-m">350,000원</span>
+          </div>
+
+          <hr class="line_one">
+
+          <div class="deposit-totalMoney4">
+            <img src= "./images/kb.png" class= "totalMoney_kb">
+            <span class="deposit-korean4 d-k">KB국민ONE통장-저축예금</span>
+            <span class="deposit-money4 d-m">4,855,148원</span>
+          </div>
+
+          <div class="deposit-totalMoney5">
+            <span class="deposit-korean5 d-k">카카오뱅크 모임통장 (-)</span>
+            <span class="deposit-money5 d-m">100,000원</span>
+          </div>
+
+          <div class="deposit-totalMoney6">
+            <span class="deposit-korean6 d-k">예적금</span>
+            <span class="deposit-money6 d-m">30,000,000원</span>
+          </div>
+
+          <hr class="line_one">
+
+          <div class="deposit-totalMoney7">
+            <img src= "./images/kb.png" class= "totalMoney_kb">
+            <span class="deposit-korean7 d-k">KB Star 정기예금</span>
+            <span class="deposit-money7 d-m">10,000,000원</span>
+          </div>
+
+          <div class="deposit-totalMoney8">
+            <img src= "./images/kb.png" class= "totalMoney_kb">
+            <span class="deposit-korean8 d-k">직장인우대적금<span>
+            <span class="deposit-money8 d-m">5,400,000원</span>
+          </div>
+
+          <div class="deposit-totalMoney9">
+            <span class="deposit-korean9 d-k">카카오뱅크 정기예금</span>
+            <span class="deposit-money9 d-m">10,000,000원</span>
+          </div>
+
+          <div class="deposit-totalMoney10">
+            <span class="deposit-korean10 d-k">카카오뱅크 정기예금</span>
+            <span class="deposit-money10 d-m">4,600,000원</span>
+          </div>
+        </div>
+        
+
+      </div>
+
+      <div class="card"></div>
+      <div class="loan"></div>
+      <div class="asset"></div>
+      <div class="car"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap");
+
+@import "nav.css";
+@import "nav-bar.css";
+
+.bodymain {
+  background-color: #7d3cec;
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.home__body {
+  left: 30%;
+  margin-bottom: 20px;
+}
+
+.home__body2 {
+}
+
+.home__body2 .home__body-text1 {
+  margin-bottom: 10px;
+}
+
+.home__body2 .home__body-text1,
+.home__body2 .home__body-text2 {
+  color: inherit;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  padding-left: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.home__body .home__body-imgB {
+  position: relative;
+}
+
+.home__body .home__body-imgLiiv {
+  position: absolute;
+  top: -20px;
+  left: 82px;
+}
+
+.home__tail {
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  display: flex;
+}
+
+.home__tail .home__tail-text {
+  position: relative;
+}
+
+.home__tail .home__tail-image {
+  position: absolute;
+  left: 95px;
+  font-size: 20px;
+}
+
+.home__tail .home__tail-text {
+  color: rgb(255, 255, 255);
+}
+
+strong {
+  font-weight: bold;
+}

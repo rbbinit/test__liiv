@@ -1,0 +1,15 @@
+.nav .nav__list-item1,
+.nav .nav__list-item2 {
+  opacity: 0.6;
+
+  text-decoration: none;
+}
+
+.nav .nav__list-item3 {
+  border-bottom: 3px solid #f7f7f7;
+}
+
+.nav__list .nav__list-link {
+  color: white;
+  text-decoration: none;
+}
