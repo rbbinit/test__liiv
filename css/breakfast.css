@@ -54,7 +54,10 @@
   color: white;
 }
 
+/* 계좌, 현금 */
+
 .deposit {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 20px 30px;
   margin: 10px;
   border-radius: 1em;
@@ -71,7 +74,14 @@
   margin-bottom: 17px;
 }
 
-.deposit-totalMoney .deposit-korean1 {
+.deposit-totalMoney .deposit-korean1,
+.deposit-money4,
+.deposit-money5,
+.deposit-money7,
+.deposit-money8,
+.deposit-money9,
+.deposit-money10,
+.card-totalNumber2 {
   font-weight: bold;
 }
 
@@ -96,7 +106,7 @@
 .deposit-totalMoney3,
 .deposit-totalMoney6 {
   font-size: 15px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .deposit-totalMoney3,
@@ -105,13 +115,95 @@
 }
 
 hr.line_one {
-  width: 700px;
+  width: 95%;
   border-bottom: 10px;
   text-align: center;
   margin-left: 7px;
 }
 
 .totalMoney_kb {
-  width: 3%;
+  width: 22px;
   height: auto;
+}
+
+.totalMoney_kakao {
+  width: 22px;
+  height: auto;
+}
+
+.deposit-totalMoney .d-kk {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.deposit-totalMoney4,
+.deposit-totalMoney7,
+.deposit-totalMoney8,
+.deposit-totalMoney9,
+.deposit-totalMoney10 {
+  margin-bottom: 7px;
+}
+
+.deposit-totalMoney5 {
+  margin-bottom: 17px;
+}
+
+.deposit-totalMoney3 {
+  color: #7d3cec;
+}
+
+/* 카드 */
+.card {
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 1em;
+  border: 1px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card-totalMoney {
+  margin-bottom: 35px;
+}
+.card-totalMoney .card-totalKorean,
+.card-totalNumber {
+  position: absolute;
+  right: 10%;
+  opacity: 0.7;
+}
+
+.card-totalNumber2,
+.card-kbPurchase {
+  position: absolute;
+  right: 10%;
+}
+
+.card-kbPurchase {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.card-korean {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.card-kbcard {
+  margin-left: 10px;
+}
+
+.card-korean2 {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.card-kb {
+  margin-bottom: 10px;
+}
+
+.loan {
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 1em;
+  border: 1px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
