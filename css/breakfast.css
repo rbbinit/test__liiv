@@ -118,6 +118,11 @@
   margin-bottom: 10px;
 }
 
+.deposit-money8 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .deposit-totalMoney2 {
   margin-bottom: 3px;
 }
@@ -264,9 +269,6 @@ hr.line_one {
 .assetTotalMoney {
   position: absolute;
   right: 10%;
-}
-
-.assetTotalMoney {
   font-size: 17px;
   opacity: 0.6;
 }
@@ -279,6 +281,7 @@ hr.line_one {
   padding: 5px;
   border: solid 0.5px gray;
   color: gray;
+  margin-right: 5px;
 }
 
 .buildingName,
@@ -295,4 +298,17 @@ hr.line_one {
 
 .buildingUpDown {
   font-size: 12px;
+}
+
+.buildingType {
+  opacity: 0.7;
+}
+
+.asset-money {
+  flex-direction: column;
+}
+
+.buildingPrice,
+.buildingUpDown {
+  display: flex;
 }
