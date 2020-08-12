@@ -49,6 +49,10 @@
   text-decoration: none;
 }
 
+#breakfast_button {
+  background-color: #7d3cec;
+}
+
 .sort-down-button {
   background-color: #7d3cec;
   color: white;
