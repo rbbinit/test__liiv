@@ -9,7 +9,7 @@
   display: inline-block;
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 27%;
 }
 
 .home__body {
@@ -46,7 +46,7 @@
 .home__tail {
   position: fixed;
   bottom: 10%;
-  left: 35%;
+  left: 40%;
   display: flex;
 }
 

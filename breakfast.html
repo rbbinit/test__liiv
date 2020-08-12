@@ -2,7 +2,7 @@
 <html lang="kor">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -192,8 +192,8 @@
           </span>
           <hr class="line_one">
         </div>
-        <div class= "asset-detail">
 
+        <div class= "asset-detail">
           <div class="asset-image">
             <i class="far fa-building"></i>
           </div>
@@ -202,12 +202,24 @@
            <span class="buildingType">아파트 | 자가</span>
           </div>
           <div class= "asset-money">
-            <span class="buildingPrice">10억원</span>            
-            <span class="buildingUpDown">3억 5000만원</span>
-          </div>
-
+            <span class="buildingPrice">10억원</span>    
+            <div class = "asset-money-detail">
+              <i class="fas fa-caret-up"></i>        
+              <span class="buildingUpDown">3억 5000만원</span>
+            </div>
+          </div>          
         </div>
+
+        <div>
+          <button class="asset-plus-button">
+            <i class="fas fa-plus-circle"></i>
+             <span class ="asset-plus-button-name"> 부동산 자산 추가 </span>
+          </button>
+        </div>
+
       </div>
+      
+      
       <div class="car"></div>
     </div>
   </body>
