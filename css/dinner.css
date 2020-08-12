@@ -93,3 +93,15 @@
 .fa-search {
   margin-right: 8px;
 }
+
+.dinner__graph {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 20px;
+  margin: 10px;
+  border-radius: 1em;
+  border: 1px solid black;
+}
+
+.dinner__graph__contents {
+  text-align: center;
+}
