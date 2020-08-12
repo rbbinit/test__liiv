@@ -114,6 +114,10 @@
   margin-bottom: 10px;
 }
 
+.deposit-totalMoney2 {
+  margin-bottom: 3px;
+}
+
 hr.line_one {
   width: 95%;
   border-bottom: 10px;
@@ -200,10 +204,91 @@ hr.line_one {
   margin-bottom: 10px;
 }
 
+/* 대출 */
+
 .loan {
   padding: 20px 30px;
   margin: 10px;
   border-radius: 1em;
   border: 1px solid black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.loanTotalKorean {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.loanTotalMoney {
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+.loanTotalMoney,
+.loanItemMoney {
+  position: absolute;
+  right: 10%;
+}
+
+.loan-total {
+  padding-bottom: 15px;
+}
+
+.loanItemKorean {
+  font-size: 13px;
+}
+
+.loanItemMoney {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* 부동산 */
+.asset {
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 1em;
+  border: 1px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.assetTotalKorean {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.assetTotalMoney {
+  position: absolute;
+  right: 10%;
+}
+
+.assetTotalMoney {
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+.asset-detail {
+  display: flex;
+}
+
+.asset-image {
+  padding: 5px;
+  border: solid 0.5px gray;
+  color: gray;
+}
+
+.buildingName,
+.buildingType {
+  font-size: 12px;
+  display: flex;
+}
+
+.buildingPrice,
+.buildingUpDown {
+  position: absolute;
+  right: 10%;
+}
+
+.buildingUpDown {
+  font-size: 12px;
 }
