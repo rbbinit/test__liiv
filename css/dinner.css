@@ -15,7 +15,7 @@
 
 .dinner {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding: 20px 30px;
+  padding-top: 20px;
   margin: 10px;
   border-radius: 1em;
   border: 1px solid black;
@@ -44,4 +44,52 @@
 #dinner_button {
   position: absolute;
   right: 10%;
+}
+
+.dinner__popup1,
+.dinner__popup2 {
+  display: flex;
+  margin-bottom: 18px;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.dinner__popup2 {
+  margin-bottom: 30px;
+}
+
+.dinner__popup1__korean,
+.dinner__popup2__korean {
+  position: absolute;
+  right: 10%;
+}
+
+.dinner__solution-button {
+  background-color: gray;
+  width: 100%;
+  height: 50px;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.dinner__lackMoney_korean,
+.dinner__lackMoney_below,
+.dinner__popup1,
+.dinner__popup2,
+.line_one {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.line_one {
+  margin-bottom: 20px;
+}
+
+.fa-search,
+.solution-button-name {
+  font-size: 17px;
+}
+
+.fa-search {
+  margin-right: 8px;
 }
