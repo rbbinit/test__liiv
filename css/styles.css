@@ -5,7 +5,7 @@
 @import "nav-bar.css";
 
 .bodymain {
-  background-color: #7d3cec;
+  background-color: gray;
   display: inline-block;
   position: absolute;
   top: 30%;
@@ -33,7 +33,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.home__body .home__body-imgB {
+/* .home__body .home__body-imgB {
   position: relative;
 }
 
@@ -41,7 +41,7 @@
   position: absolute;
   top: -20px;
   left: 82px;
-}
+} */
 
 .home__tail {
   position: fixed;

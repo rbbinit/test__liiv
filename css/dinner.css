@@ -1,7 +1,6 @@
 .nav .nav__list-item1,
 .nav .nav__list-item2 {
   opacity: 0.6;
-
   text-decoration: none;
 }
 
@@ -12,4 +11,37 @@
 .nav__list .nav__list-link {
   color: white;
   text-decoration: none;
+}
+
+.dinner {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 1em;
+  border: 1px solid black;
+}
+
+.dinner__lackMoney_korean {
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.fa-caret-down {
+  font-size: 20px;
+  margin-right: 3px;
+  color: blue;
+}
+
+.dinner__lackMoney_number {
+  font-size: 23px;
+  color: blue;
+}
+
+.dinner__lackMoney_below {
+  margin-bottom: 20px;
+}
+
+#dinner_button {
+  position: absolute;
+  right: 10%;
 }
