@@ -1,0 +1,51 @@
+.asset_head {
+  display: flex;
+  font-size: 25px;
+  padding: 20px 30px;
+}
+
+.fa-arrow-circle-left {
+  margin-right: 10px;
+}
+
+.asset_body_building {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px;
+  border-radius: 1em;
+  border: 1px solid black;
+  display: flex;
+}
+
+.asset_building_detail {
+  display: flex;
+}
+
+.asset_building_describe {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 0.4em;
+  border: 1px solid black;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #7d3cec;
+  color: white;
+}
+
+.fa-building {
+  margin-left: 15px;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.asset_building_name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.asset_building_detail_price {
+  margin-right: 5px;
+}
