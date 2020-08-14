@@ -70,6 +70,9 @@
   height: 50px;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  display : flex;
+  justify-content : center;
+  padding-top : 10px;
 }
 
 .dinner__lackMoney_korean,
@@ -85,13 +88,18 @@
   margin-bottom: 20px;
 }
 
-.fa-search,
+
 .solution-button-name {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .fa-search {
-  margin-right: 8px;
+  font-size : 25px;margin-right: 8px;
+}
+
+.solution-button-name,
+.fa-search {
+  text-align: center;
 }
 
 .dinner__graph {
@@ -104,4 +112,78 @@
 
 .dinner__graph__contents {
   text-align: center;
+}
+
+.fa-home{
+  font-size: 45px;
+  margin-left: 30px;
+  border: 1px solid black;
+  border-radius : 50%;
+  padding : 5px;
+  background-color :rgb(226, 132, 226);
+  margin-bottom: 15px;
+}
+
+.dinner__home-image,
+.solution-button-name,
+.fa-hourglass-half { 
+  border-radius : 50%:
+}
+
+.dinner__body-solution {
+  margin-bottom: 20px;
+}
+
+.dinner__body-solution_home,
+.dinner__body-solution_irp {
+  display: flex;
+}
+
+.dinner__body-solution_home2{
+  margin-left : 30px;
+  margin-top : 17px;
+  font-size : 20px;
+}
+
+.dinner__body-solution_irp2{
+  margin-left : 36px;
+  margin-top : 17px;
+  font-size : 20px;
+  
+}
+
+.dinner__body-solution_irp {
+  margin-bottom: 15px;
+  
+}
+
+.fa-hourglass-half {
+  font-size: 45px;
+  margin-left: 35px;
+  border: 1px solid black;
+  border-radius : 50%;
+  padding : 8px;
+  background-color : rgb(226, 132, 226);
+}
+
+.dinner__body-solution-liivM1{
+  font-size : 20px;
+  width: 42px;
+  height : 42px;
+  margin-left: 35px;
+  border: 1px solid black;
+  border-radius : 50%;
+  padding : 5px;
+  background-color : rgb(226, 132, 226); 
+}
+
+
+.dinner__body-solution_liivM {
+  display: flex;
+}
+
+.dinner__body-solution_liivM2{
+  margin-left : 36px;
+  margin-top : 12px;
+  font-size : 20px;
 }
